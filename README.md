@@ -93,7 +93,7 @@ Cada participante tiene un documento individual con las diez pruebas y un espaci
 |:---|:---|:---|
 | **CarlosWrld** | 🌿 Lavanda | [Abrir evaluación de Carlos](CarlosWrld/README.md) |
 | **Julio10Mon** | 🌿 Manzanilla | [Abrir evaluación de Julio](Julio10Mon/README.md) |
-| **LeslyeMaye** | 🌿 Eucalipto | [Abrir evaluación de Leslye](LeslyeMayte/README.md) |
+| **LeslyeMayte** | 🌿 Eucalipto | [Abrir evaluación de Leslye](LeslyeMayte/README.md) |
 | **ProfaDulce** | 🌿 Sábila | [Abrir evaluación de Dulce](ProfaDulce/README.md) |
 
 <p align="center">
@@ -103,8 +103,11 @@ Cada participante tiene un documento individual con las diez pruebas y un espaci
   <a href="Julio10Mon/README.md">
     <img src="https://img.shields.io/badge/JULIO-ABRIR%20EVALUACIÓN-51A8D1?style=for-the-badge">
   </a>
-  <a href="mykeespinal/README.md">
-    <img src="https://img.shields.io/badge/MIGUEL-ABRIR%20EVALUACIÓN-A16ACB?style=for-the-badge">
+  <a href="LeslyeMayte/README.md">
+    <img src="https://img.shields.io/badge/LESLYE-ABRIR%20EVALUACIÓN-E06C75?style=for-the-badge">
+  </a>
+  <a href="ProfaDulce/README.md">
+    <img src="https://img.shields.io/badge/DULCE-ABRIR%20EVALUACIÓN-D19A66?style=for-the-badge">
   </a>
 </p>
 
