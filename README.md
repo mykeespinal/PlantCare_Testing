@@ -25,7 +25,7 @@
 ## 📱 ¡Comienza tu evaluación!
 
 <p align="center">
-  <a href="https://github.com/NMG15/Plant-Care-Testing/releases/download/v1.0-testing/PlantCare_Android_v1.0.apk">
+  <a href="https://github.com/mykeespinal/PlantCare_Testing/releases/download/v1.0-testing/app-release.apk">
     <img src="https://img.shields.io/badge/DESCARGAR-APK%20V1.0-087B55?style=for-the-badge&logo=android&logoColor=white">
   </a>
   <a href="PLAN_10_PRUEBAS.md">
@@ -41,7 +41,7 @@
 
 **Versión:** 1.0 (Build 1)
 
-**Archivo:** `PlantCare_Android_v1.0.apk`
+**Archivo:** `app-release.apk`
 
 **Dispositivo:** Teléfono Android.
 
@@ -93,8 +93,8 @@ Cada participante tiene un documento individual con las diez pruebas y un espaci
 |:---|:---|:---|
 | **CarlosWrld** | 🌿 Lavanda | [Abrir evaluación de Carlos](CarlosWrld/README.md) |
 | **Julio10Mon** | 🌿 Manzanilla | [Abrir evaluación de Julio](Julio10Mon/README.md) |
-| **LeslyeMaye** | 🌿 Eucalipto | [Abrir evaluación de Miguel](LeslyeMayte/README.md) |
-| **ProfaDulce** | 🌿 Sábila | [Abrir evaluación de Miguel](ProfaDulce/README.md) |
+| **LeslyeMaye** | 🌿 Eucalipto | [Abrir evaluación de Leslye](LeslyeMayte/README.md) |
+| **ProfaDulce** | 🌿 Sábila | [Abrir evaluación de Dulce](ProfaDulce/README.md) |
 
 <p align="center">
   <a href="CarlosWrld/README.md">
