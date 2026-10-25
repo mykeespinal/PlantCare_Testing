@@ -163,7 +163,7 @@ No compartas contraseñas, tokens ni información personal.
 </p>
 
 <p align="center">
-  <strong>Viernes 23 de octubre de 2026</strong><br>
+  <strong>Viernes 25 de octubre de 2026</strong><br>
   11:59 p. m. — Hora del centro de México
 </p>
 
