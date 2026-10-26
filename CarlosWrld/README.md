@@ -28,10 +28,10 @@
 | **Evaluador** | Carlos (`@CarlosWrld`) |
 | **Planta representante** | 🌿 Lavanda |
 | **Versión de Plant Care** | `1.0 (Build 1)` |
-| **Fecha de evaluación** | Escribir aquí |
-| **Modelo de teléfono** | Escribir aquí |
-| **Versión de Android** | Escribir aquí |
-| **Estado general** | ⬜ Pendiente |
+| **Fecha de evaluación** | 25/10/2026 |
+| **Modelo de teléfono** | Samsung S25 Ultra |
+| **Versión de Android** | 16 |
+| **Estado general** | Realizado |
 
 
 Credenciasles de acceso admin
@@ -55,16 +55,16 @@ En cada fila cambiaré el estado, agregaré una calificación de **1 a 5** y esc
 
 | N.º | 🌿 Prueba | Estado | ⭐ Nota | 💬 Mi comentario |
 |:---:|:---|:---:|:---:|:---|
-| 01 | 👑 Prueba de cuenta de administración | ⬜ | — / 5 | Escribir aquí |
-| 02 | 👤 Creación de usuario (Admin) | ⬜ | — / 5 | Escribir aquí |
-| 03 | 📄 Descarga de PDF de usuarios | ⬜ | — / 5 | Escribir aquí |
-| 04 | 📂 Creación de categoría y receta | ⬜ | — / 5 | Escribir aquí |
-| 05 | 🔐 Acceso en modo usuario | ⬜ | — / 5 | Escribir aquí |
-| 06 | 📱 Visualización y navegación general | ⬜ | — / 5 | Escribir aquí |
-| 07 | 🔍 Consulta de categorías y recetas | ⬜ | — / 5 | Escribir aquí |
-| 08 | 📥 Descarga de receta medicinal | ⬜ | — / 5 | Escribir aquí |
-| 09 | ⭐ Guardar y ver recetas en favoritos | ⬜ | — / 5 | Escribir aquí |
-| 10 | 🌿 Experiencia general de la app | ⬜ | — / 5 | Escribir aquí |
+| 01 | 👑 Prueba de cuenta de administración | ✅  | 5 / 5 | Escribir aquí |
+| 02 | 👤 Creación de usuario (Admin) | ✅ | 5 / 5 | Escribir aquí |
+| 03 | 📄 Descarga de PDF de usuarios | ✅ | 5 / 5 | Escribir aquí |
+| 04 | 📂 Creación de categoría y receta | ✅ | 5 / 5 | Escribir aquí |
+| 05 | 🔐 Acceso en modo usuario | ⚠️ | 3 / 5 | Escribir aquí |
+| 06 | 📱 Visualización y navegación general | ✅ | — / 5 | Escribir aquí |
+| 07 | 🔍 Consulta de categorías y recetas | ✅ | — / 5 | Escribir aquí |
+| 08 | 📥 Descarga de receta medicinal | ✅ | 5 / 5 | Escribir aquí |
+| 09 | ⭐ Guardar y ver recetas en favoritos | ✅ | 5 / 5 | Escribir aquí |
+| 10 | 🌿 Experiencia general de la app | ⬜ | 4 / 5 | Escribir aquí |
 
 > 💚 Puedo consultar las instrucciones completas en la [guía de las 10 pruebas](../PLAN_10_PRUEBAS.md).
 
@@ -80,11 +80,11 @@ En cada fila cambiaré el estado, agregaré una calificación de **1 a 5** y esc
 | ⭐⭐⭐⭐ | 4/5 | Bueno |
 | ⭐⭐⭐⭐⭐ | 5/5 | Excelente |
 
-**Mi calificación general:** ___ / 5
+**Mi calificación general:** 4 / 5
 
 **¿Por qué elegí esa calificación?**
 
-Escribir aquí...
+Carece de complementos la apicación
 
 ---
 
@@ -96,84 +96,75 @@ Si algo falla, registraré la información siguiente.
 
 | 🔍 Información | 📝 Mi respuesta |
 |:---|:---|
-| **Función afectada** | Escribir aquí |
-| **¿Qué intentaba hacer?** | Escribir aquí |
-| **¿Qué ocurrió?** | Escribir aquí |
-| **¿Qué esperaba que sucediera?** | Escribir aquí |
-| **¿Puedo repetir el problema?** | Sí / No / No lo sé |
-| **Importancia del problema** | Baja / Media / Alta |
+| **Función afectada** | Registro de nuvos usuarios |
+| **¿Qué intentaba hacer?** | Iniciar sesión registrandome normal |
+| **¿Qué ocurrió?** | La aplicacion arrojo error y no permitio crear ningun nuevo usuario |
+| **¿Qué esperaba que sucediera?** | Esperaba que una vez creado mi usuario me redirigiera al dashboard principal de mi aplicación |
+| **¿Puedo repetir el problema?** | Sí |
+| **Importancia del problema** | Alta |
 | **Captura de pantalla** | Enlace opcional |
 
-> ✅ Si todo funcionó correctamente, escribiré: **No encontré errores durante mis pruebas.**
+<img width="738" height="1600" alt="WhatsApp Image 2026-10-25 at 7 08 35 PM" src="https://github.com/user-attachments/assets/b5d58677-f1fc-47be-aad6-7ca9cdaf6a90" />
 
----
+| 🔍 Información | 📝 Mi respuesta |
+|:---|:---|
+| **Función afectada** | Iniciar sesión con Google |
+| **¿Qué intentaba hacer?** | Iniciar sesión registrandome con mi cuenta de Google |
+| **¿Qué ocurrió?** | La aplicacion arrojo error y no permitio crear ningun nuevo usuario utilizando mi cuenta de Google |
+| **¿Qué esperaba que sucediera?** | Esperaba que una vez creado mi usuario me redirigiera al dashboard principal de mi aplicación justo como en la creacion de un usuario normal |
+| **¿Puedo repetir el problema?** | Sí |
+| **Importancia del problema** | Alta |
+| **Captura de pantalla** | Enlace opcional |
+<img width="738" height="1600" alt="WhatsApp Image 2026-10-25 at 7 20 33 PM" src="https://github.com/user-attachments/assets/2050f944-17cc-4895-89e8-b8266acfc562" />
 
 ## 💬 Tres preguntas adicionales
 
 ### 💚 1. ¿Qué fue lo que más me gustó de Plant Care?
 
-**Mi respuesta:**
+Me gusta que es sencilla y facil de usar , no es nada complicado al igual que los colores usados son agradables
 
-Escribir aquí...
 
 ### 🛠️ 2. ¿Qué mejoraría o cambiaría de la aplicación?
 
-**Mi respuesta:**
-
-Escribir aquí...
+Me gustaria que en cada malestar aparezca una breve descripcion de los sintomas y se agreguen mas opciones de malestar
 
 ### 🌿 3. ¿Recomendaría esta aplicación a alguien interesado en la medicina natural? ¿Por qué?
 
-**Mi respuesta:**
-
-Escribir aquí...
-
+Si ya que algunos malestares pueden llegar a aliviarse solo usando plantas naturales sin necesidad de medecina 
 ---
 
 ## 📝 Mis observaciones adicionales
 
-Aquí puedo comentar aspectos que no estén incluidos en las diez pruebas.
+Falrta corregir las inicios de sesion ya que solo permite crear usuarios siendo administrador y no desde los registros , al igual que en la contraseña agregar que se puedan utilizar caracteres especiales, mayuscula etc, ya que ingrese contraseña con solo numeros y esto seria vulnerable.
 
 **🎨 Diseño y colores:**
 
-Escribir aquí...
+Buen diseño y colores utilizados 
 
 **📱 Facilidad de uso y navegación:**
 
-Escribir здесь...
+La aplicacion es facil de utilizar y la navegacion es fluida
 
 **⚡ Velocidad y rendimiento:**
 
-Escribir aquí...
+La velocidad para buscar recetas, publicar y desplaarse por las opciones es rapida
 
-**💡 Otras sugerencias:**
-
-Escribir aquí...
-
----
 
 ## 📸 Evidencias (opcional)
 
-Puedo agregar capturas para explicar mejor mis comentarios.
-
-No incluiré contraseñas, información privada ni datos de otras personas.
-
----
 
 ## ✅ Mi evaluación final
 
 | 🌿 Elemento | Resultado |
 |:---|:---|
-| Pruebas revisadas | ___ / 10 |
-| Problemas encontrados | ___ |
-| Calificación general | ___ / 5 |
-| ¿Terminé mi evaluación? | ⬜ Sí / No |
+| Pruebas revisadas | 10 / 10 |
+| Problemas encontrados | 3 |
+| Calificación general | 4 / 5 |
+| ¿Terminé mi evaluación? | ⬜ Sí |
 
 ### 💚 Mi conclusión
 
-Escribir aquí...
-
----
+En conclusión la aplicacion es facil de usar y muy util para personas que les gusta utilizar llervas, plantas medicinales para ciertos sintomas de enfermedad.
 
 ## 📤 Entrega de Carlos
 
