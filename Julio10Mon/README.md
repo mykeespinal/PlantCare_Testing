@@ -54,15 +54,15 @@ En cada fila cambiaré el estado, agregaré una calificación de **1 a 5** y esc
 
 | N.º | 🌿 Prueba | Estado | ⭐ Nota | 💬 Mi comentario |
 |:---:|:---|:---:|:---:|:---|
-| 01 | 👑 Prueba de cuenta de administración | ✅ | 4 / 5 | Pude entrar al panel de administración y usar las pestañas Usuarios, Categorías, Recetas y Perfil. El perfil muestra correctamente el tipo de cuenta "Administrador". |
-| 02 | 👤 Creación de usuario (Admin) | ✅ | 4 / 5 | La cuenta se creó, apareció en la lista y se mostró el mensaje "La cuenta fue creada". |
+| 01 | 👑 Prueba de cuenta de administración | ✅ | 5 / 5 | Pude entrar al panel de administración y usar las pestañas Usuarios, Categorías, Recetas y Perfil. El perfil muestra correctamente el tipo de cuenta "Administrador". |
+| 02 | 👤 Creación de usuario (Admin) | ✅ | 5 / 5 | La cuenta se creó, apareció en la lista y se mostró el mensaje "La cuenta fue creada". |
 | 03 | 📄 Descarga de PDF de usuarios | ➖ | — / 5 | No llegué a probar el botón de PDF de la lista de usuarios. |
-| 04 | 📂 Creación de categoría y receta | ✅ | 4 / 5 | Creé la categoría "Dolor de muela" y una receta con imagen; ambas aparecieron en las listas y la receta quedó publicada. |
+| 04 | 📂 Creación de categoría y receta | ✅ | 5 / 5 | Creé la categoría "Dolor de muela" y una receta con imagen; ambas aparecieron en las listas y la receta quedó publicada. |
 | 05 | 🔐 Acceso en modo usuario | ⚠️ | 3 / 5 | Con correo y contraseña entré bien a la cuenta de usuario, pero **"Continuar con Google" no funciona** (ver Error 1). |
-| 06 | 📱 Visualización y navegación general | ✅ | 4 / 5 | La barra inferior es clara y la navegación entre Explorar, Buscar, Favoritos y Perfil es fluida. |
-| 07 | 🔍 Consulta de categorías y recetas | ✅ | 4 / 5 | Las categorías y sus recetas se abren correctamente y el detalle muestra ingredientes, preparación y beneficio esperado. |
+| 06 | 📱 Visualización y navegación general | ✅ | 5 / 5 | La barra inferior es clara y la navegación entre Explorar, Buscar, Favoritos y Perfil es fluida. |
+| 07 | 🔍 Consulta de categorías y recetas | ✅ | 5 / 5 | Las categorías y sus recetas se abren correctamente y el detalle muestra ingredientes, preparación y beneficio esperado. |
 | 08 | 📥 Descarga de receta medicinal | ⚠️ | 3 / 5 | Se genera el PDF, pero las viñetas de los ingredientes salen como cuadritos (▯) y no incluye la imagen de la receta (ver Error 2). |
-| 09 | ⭐ Guardar y ver recetas en favoritos | ✅ | 4 / 5 | Al tocar el corazón, la receta quedó marcada en rojo y se mantuvo así en la tarjeta de la categoría. |
+| 09 | ⭐ Guardar y ver recetas en favoritos | ✅ | 5 / 5 | Al tocar el corazón, la receta quedó marcada en rojo y se mantuvo así en la tarjeta de la categoría. |
 | 10 | 🌿 Experiencia general de la app | ⚠️ | 4 / 5 | Las funciones principales sirven y los colores son agradables, pero el diseño puede mejorar (ver observaciones de diseño). |
 
 > 💚 Puedo consultar las instrucciones completas en la [guía de las 10 pruebas](../PLAN_10_PRUEBAS.md).
@@ -105,7 +105,6 @@ Si algo falla, registraré la información siguiente.
 | **Importancia del problema** | Alta |
 | **Captura de pantalla** | Enlace opcional |
 
-> 💡 **Posible solución:** este error suele aparecer cuando la huella SHA-1/SHA-256 de la llave con la que se firmó el APK no está registrada en Firebase. Conviene agregar ambas huellas en *Configuración del proyecto → App Android*, descargar de nuevo `google-services.json`, verificar que el proveedor Google esté habilitado en *Authentication* y volver a compilar. También sería bueno mostrar un mensaje en español, por ejemplo: *"No se pudo iniciar sesión con Google. Intenta con tu correo."*
 
 ### Error 2 · PDF de la receta: viñetas como cuadritos y sin imagen
 
@@ -119,7 +118,6 @@ Si algo falla, registraré la información siguiente.
 | **Importancia del problema** | Media |
 | **Captura de pantalla** | Enlace opcional |
 
-> 💡 **Posible solución:** la fuente que trae por defecto el paquete `pdf` no incluye el carácter "•". Se puede cargar una fuente TTF (por ejemplo Roboto o Noto Sans) con `pw.Font.ttf(...)` o usar el widget `pw.Bullet`. Para la imagen, se pueden descargar los bytes de la foto y agregarlos con `pw.Image(pw.MemoryImage(bytes))` en la parte superior del PDF.
 
 ---
 
@@ -153,7 +151,7 @@ Aquí puedo comentar aspectos que no estén incluidos en las diez pruebas.
 
 Los colores verdes son agradables y consistentes con el tema. Estas son mis sugerencias para mejorar el diseño:
 
-- **Ícono de la app:** la app usa el ícono predeterminado. Sería bueno crear uno propio (por ejemplo, la hoja verde del inicio de sesión) con `flutter_launcher_icons` y agregar una pantalla de bienvenida con `flutter_native_splash`.
+- **Ícono de la app:** la app usa el ícono predeterminado. Sería bueno crear uno propio (por ejemplo, la hoja verde del inicio de sesión) 
 - **Íconos de categorías:** todas las categorías usan el mismo ícono. Se verían mejor con un ícono o imagen distinta para cada una.
 - **Pantalla Explorar:** solo tiene dos tarjetas y queda mucho espacio vacío. Podría mostrar recetas recientes o destacadas, o un carrusel de categorías con imagen.
 - **Tarjetas de receta:** la categoría se repite encima del nombre. Sería más útil mostrar la planta o una breve descripción.
