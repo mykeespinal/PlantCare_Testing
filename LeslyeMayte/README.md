@@ -52,11 +52,11 @@ En cada fila registro lo observado y una calificación orientativa de **1 a 5**.
 |:---:|:---|:---:|:---:|:---|
 | 01 | 👑 Prueba de cuenta de administración | ✅ | 5/5 | Entré con la cuenta autorizada. Aparecieron Usuarios, Categorías, Recetas y Perfil. En modo usuario se mostraron Explorar, Buscar, Favoritos y Perfil. Se comprobó esa separación visible, no los permisos internos del servidor. |
 | 02 | 👤 Creación de usuario (Admin) | ✅ | 4/5 | El formulario vacío mostró validaciones. Después creé un usuario con rol Usuario y se actualizaron listado y contadores. Los avisos iniciales permanecieron mientras completaba los campos hasta reenviar; recomendaría actualizarlos al editar. |
-| 03 | 📄 Descarga de PDF de usuarios | ✅ | 4/5 | El botón abrió Imprimir de Android. Con Guardar como PDF se creó usuarios_plantas_medicinales.pdf en Descargas. La vista previa mostró una página con los dos usuarios de ese momento. Recomendaría explicar los pasos o permitir descarga directa. No adjunto el reporte porque contiene datos de cuentas. |
-| 04 | 📂 Creación de categoría y receta | ⚠️ | 4/5 | Creé QA261026 y la receta QA261026 - PRUEBA NO USAR. Sin imagen apareció “Bad state: Selecciona una imagen para la receta”. Después de adjuntarla, la publicación funcionó y fue visible desde el usuario nuevo. Recomendaría indicar que la imagen es obligatoria y evitar el texto técnico. Al terminar retiré la publicación. |
+| 03 | 📄 Descarga de PDF de usuarios | ✅ | 4/5 | Con Guardar como PDF se creó usuarios_plantas_medicinales.pdf en Descargas. La vista previa mostró una página con los dos usuarios de ese momento. Recomendaría explicar los pasos o permitir descarga directa. |
+| 04 | 📂 Creación de categoría y receta | ⚠️ | 4/5 | Creé QA261026 y la receta QA261026 - PRUEBA NO USAR. Sin imagen apareció “Bad state: Selecciona una imagen para la receta”. Después de adjuntarla, la publicación funcionó y fue visible desde el usuario nuevo. Recomendaría indicar que la imagen es obligatoria. |
 | 05 | 🔐 Acceso en modo usuario | ✅ | 5/5 | Cerré administración e inicié sesión con el usuario recién creado. Pude consultar y buscar la receta publicada. No aparecieron las pestañas de administración. |
 | 06 | 📱 Visualización y navegación general | ✅ | 4/5 | Recorrí Explorar, Buscar, Favoritos, Perfil, categorías y detalles sin cierres observados. Pude desplazar el detalle hasta la nota educativa. Recomendaría confirmar el cierre de sesión, pues tocar el icono termina la sesión directamente. |
-| 07 | 🔍 Consulta de categorías y recetas | ✅ | 5/5 | Consulté ingredientes, preparación y beneficio. Buscar “estomago” encontró “Dolor de estómago” sin escribir el acento. También encontré QA261026 desde la cuenta nueva. El buscador incluye una X para borrar la consulta. |
+| 07 | 🔍 Consulta de categorías y recetas | ✅ | 5/5 | Consulté ingredientes, preparación y beneficio. Buscar “estomago” encontró “Dolor de estómago” sin escribir el acento. También encontré QA261026 desde la cuenta nueva. |
 | 08 | 📥 Descarga de receta medicinal | ⚠️ | 4/5 | Descargar abrió Compartir. Mediante Imprimir > Guardar como PDF guardé la receta de prueba en Descargas. Conservó título, categoría, ingredientes, preparación, beneficio y aviso educativo. La viñeta del ingrediente aparece como un recuadro con una cruz en teléfono y computadora. Recomendaría corregir el símbolo y separar Guardar de Compartir. |
 | 09 | ⭐ Guardar y ver recetas en favoritos | ✅ | 5/5 | Quité una receta guardada y comprobé el estado vacío. La agregué otra vez y apareció, restaurando el estado inicial. Con el usuario nuevo guardé QA261026 y apareció en Favoritos; la quité al terminar. |
 | 10 | 🌿 Experiencia general de la app | ✅ | 4/5 | Funcionaron acceso por rol, creación de usuario y contenido, consulta, búsqueda, favoritos y exportación. Colores consistentes y secciones claras. Mejoraría validaciones, exportación y gestión posterior del contenido. |
@@ -79,7 +79,7 @@ En cada fila registro lo observado y una calificación orientativa de **1 a 5**.
 
 **¿Por qué elegí esa calificación?**
 
-Es el promedio de las diez notas. Pude completar las funciones del recorrido, con detalles en la validación de la imagen obligatoria y en el aspecto del PDF. La exportación funcionó mediante Android, aunque podría ser más directa. Las notas corresponden a esta prueba, no a una certificación completa.
+Es el promedio de las diez notas. Pude completar las funciones del recorrido, con detalles en la validación de la imagen obligatoria y en el aspecto del PDF. La exportación funcionó mediante Android.
 
 ---
 
@@ -131,7 +131,7 @@ Marcaría los campos obligatorios, actualizaría las validaciones al corregirlos
 
 **Mi respuesta:**
 
-La recomendaría para explorar y organizar contenido educativo, por sus categorías, búsqueda y favoritos. Esta prueba no verificó la eficacia ni la seguridad médica de las recetas.
+La recomendaría para explorar y organizar contenido educativo, por sus categorías, búsqueda y favoritos.
 
 ---
 
@@ -174,11 +174,9 @@ Conservé capturas y el PDF de receta de prueba en un paquete separado. Este REA
 
 ### 💚 Mi conclusión
 
-Pude completar el recorrido de administración y usuario: crear cuenta, categoría y receta de prueba; consultar esa receta con el usuario nuevo; usar favoritos y guardar PDF mediante Android. Priorizaría corregir los detalles registrados y simplificar la exportación y la gestión de contenido.
+Pude completar el recorrido de administración y usuario: crear cuenta, categoría y receta de prueba; consultar esa receta con el usuario nuevo, aunque no se pudo ejecutar el inicio de sesión mediante Google; usar favoritos y guardar PDF mediante Android. Priorizaría corregir los detalles registrados y simplificar la exportación y la gestión de contenido.
 
-Al terminar retiré la receta QA261026 de publicación y desactivé el usuario de prueba. La categoría QA261026 y la receta como Borrador permanecen como registros de evaluación. Restauré el favorito existente al inicio. No modifiqué contenido de otras personas.
-
-Quedan fuera del alcance permisos internos del servidor, conexión interrumpida, archivos grandes, entradas extensas, lector de pantalla, otros tamaños de pantalla y rendimiento prolongado.
+Al terminar retiré la receta QA261026 de publicación y desactivé el usuario de prueba. La categoría QA261026 y la receta como Borrador permanecen como registros de evaluación.
 
 ---
 
