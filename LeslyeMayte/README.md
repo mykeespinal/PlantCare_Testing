@@ -4,7 +4,7 @@
        width="100%">
 </p>
 
-<h1 align="center">🌿 Evaluación de Leslye Mayte</h1>
+<h1 align="center">🌿 Evaluación de Leslie Mayte</h1>
 
 <p align="center">
   <strong>Plant Care V1.0 · Experiencia de usuario</strong>
@@ -25,23 +25,19 @@
 
 | 📝 Dato | 💚 Información |
 |:---|:---|
-| **Evaluador** | Leslye Mayte (`@LeslyeMayte`) |
+| **Evaluador** | Leslie  (`@LeslyeMayte`) |
 | **Planta representante** | 🌿 Eucalipto |
 | **Versión de Plant Care** | `1.0 (Build 1)` |
-| **Fecha de evaluación** | Escribir aquí |
-| **Modelo de teléfono** | Escribir aquí |
-| **Versión de Android** | Escribir aquí |
-| **Estado general** | ⬜ Pendiente |
-
-Credenciasles de acceso admin
-correo: Leslye@plantas.com
-Contraseña: password
+| **Fecha de evaluación** | 26/10/2026 |
+| **Modelo de teléfono** | POCO M6 (2404APC5FG) |
+| **Versión de Android** | Android 15 |
+| **Estado general** | ✅ Diez retos revisados, con observaciones |
 
 ---
 
 ## 🎮 ¡Mis 10 pruebas!
 
-Voy a revisar las funciones principales de Plant Care.
+Revisé las funciones principales de Plant Care en un teléfono físico, con cuentas autorizadas y una cuenta adicional de prueba. La comprobación de roles corresponde a la interfaz visible; no fue una auditoría de permisos internos del servidor.
 
 **Estados disponibles:**
 
@@ -50,20 +46,20 @@ Voy a revisar las funciones principales de Plant Care.
 - ⚠️ Encontré un problema
 - ➖ No pude probarlo
 
-En cada fila cambiaré el estado, agregaré una calificación de **1 a 5** y escribiré lo que observé.
+En cada fila registro lo observado y una calificación orientativa de **1 a 5**.
 
 | N.º | 🌿 Prueba | Estado | ⭐ Nota | 💬 Mi comentario |
 |:---:|:---|:---:|:---:|:---|
-| 01 | 👑 Prueba de cuenta de administración | ⬜ | — / 5 | Escribir aquí |
-| 02 | 👤 Creación de usuario (Admin) | ⬜ | — / 5 | Escribir aquí |
-| 03 | 📄 Descarga de PDF de usuarios | ⬜ | — / 5 | Escribir aquí |
-| 04 | 📂 Creación de categoría y receta | ⬜ | — / 5 | Escribir aquí |
-| 05 | 🔐 Acceso en modo usuario | ⬜ | — / 5 | Escribir aquí |
-| 06 | 📱 Visualización y navegación general | ⬜ | — / 5 | Escribir aquí |
-| 07 | 🔍 Consulta de categorías y recetas | ⬜ | — / 5 | Escribir aquí |
-| 08 | 📥 Descarga de receta medicinal | ⬜ | — / 5 | Escribir aquí |
-| 09 | ⭐ Guardar y ver recetas en favoritos | ⬜ | — / 5 | Escribir aquí |
-| 10 | 🌿 Experiencia general de la app | ⬜ | — / 5 | Escribir aquí |
+| 01 | 👑 Prueba de cuenta de administración | ✅ | 5/5 | Entré con la cuenta autorizada. Aparecieron Usuarios, Categorías, Recetas y Perfil. En modo usuario se mostraron Explorar, Buscar, Favoritos y Perfil. Se comprobó esa separación visible, no los permisos internos del servidor. |
+| 02 | 👤 Creación de usuario (Admin) | ✅ | 4/5 | El formulario vacío mostró validaciones. Después creé un usuario con rol Usuario y se actualizaron listado y contadores. Los avisos iniciales permanecieron mientras completaba los campos hasta reenviar; recomendaría actualizarlos al editar. |
+| 03 | 📄 Descarga de PDF de usuarios | ✅ | 4/5 | El botón abrió Imprimir de Android. Con Guardar como PDF se creó usuarios_plantas_medicinales.pdf en Descargas. La vista previa mostró una página con los dos usuarios de ese momento. Recomendaría explicar los pasos o permitir descarga directa. No adjunto el reporte porque contiene datos de cuentas. |
+| 04 | 📂 Creación de categoría y receta | ⚠️ | 4/5 | Creé QA261026 y la receta QA261026 - PRUEBA NO USAR. Sin imagen apareció “Bad state: Selecciona una imagen para la receta”. Después de adjuntarla, la publicación funcionó y fue visible desde el usuario nuevo. Recomendaría indicar que la imagen es obligatoria y evitar el texto técnico. Al terminar retiré la publicación. |
+| 05 | 🔐 Acceso en modo usuario | ✅ | 5/5 | Cerré administración e inicié sesión con el usuario recién creado. Pude consultar y buscar la receta publicada. No aparecieron las pestañas de administración. |
+| 06 | 📱 Visualización y navegación general | ✅ | 4/5 | Recorrí Explorar, Buscar, Favoritos, Perfil, categorías y detalles sin cierres observados. Pude desplazar el detalle hasta la nota educativa. Recomendaría confirmar el cierre de sesión, pues tocar el icono termina la sesión directamente. |
+| 07 | 🔍 Consulta de categorías y recetas | ✅ | 5/5 | Consulté ingredientes, preparación y beneficio. Buscar “estomago” encontró “Dolor de estómago” sin escribir el acento. También encontré QA261026 desde la cuenta nueva. El buscador incluye una X para borrar la consulta. |
+| 08 | 📥 Descarga de receta medicinal | ⚠️ | 4/5 | Descargar abrió Compartir. Mediante Imprimir > Guardar como PDF guardé la receta de prueba en Descargas. Conservó título, categoría, ingredientes, preparación, beneficio y aviso educativo. La viñeta del ingrediente aparece como un recuadro con una cruz en teléfono y computadora. Recomendaría corregir el símbolo y separar Guardar de Compartir. |
+| 09 | ⭐ Guardar y ver recetas en favoritos | ✅ | 5/5 | Quité una receta guardada y comprobé el estado vacío. La agregué otra vez y apareció, restaurando el estado inicial. Con el usuario nuevo guardé QA261026 y apareció en Favoritos; la quité al terminar. |
+| 10 | 🌿 Experiencia general de la app | ✅ | 4/5 | Funcionaron acceso por rol, creación de usuario y contenido, consulta, búsqueda, favoritos y exportación. Colores consistentes y secciones claras. Mejoraría validaciones, exportación y gestión posterior del contenido. |
 
 > 💚 Puedo consultar las instrucciones completas en la [guía de las 10 pruebas](../PLAN_10_PRUEBAS.md).
 
@@ -79,31 +75,41 @@ En cada fila cambiaré el estado, agregaré una calificación de **1 a 5** y esc
 | ⭐⭐⭐⭐ | 4/5 | Bueno |
 | ⭐⭐⭐⭐⭐ | 5/5 | Excelente |
 
-**Mi calificación general:** ___ / 5
+**Mi calificación general:** 4 / 5
 
 **¿Por qué elegí esa calificación?**
 
-Escribir aquí...
+Es el promedio de las diez notas. Pude completar las funciones del recorrido, con detalles en la validación de la imagen obligatoria y en el aspecto del PDF. La exportación funcionó mediante Android, aunque podría ser más directa. Las notas corresponden a esta prueba, no a una certificación completa.
 
 ---
 
 ## 🐛 Reporte de errores
 
-No es obligatorio encontrar errores.
-
-Si algo falla, registraré la información siguiente.
+### PC-01 · Mensaje técnico al publicar sin imagen
 
 | 🔍 Información | 📝 Mi respuesta |
 |:---|:---|
-| **Función afectada** | Escribir aquí |
-| **¿Qué intentaba hacer?** | Escribir aquí |
-| **¿Qué ocurrió?** | Escribir aquí |
-| **¿Qué esperaba que sucediera?** | Escribir aquí |
-| **¿Puedo repetir el problema?** | Sí / No / No lo sé |
-| **Importancia del problema** | Baja / Media / Alta |
-| **Captura de pantalla** | Enlace opcional |
+| **Función afectada** | Administración > Recetas > Publicar receta |
+| **¿Qué intentaba hacer?** | Publicar con nombre, categoría, ingredientes, preparación y beneficio, sin seleccionar imagen. |
+| **¿Qué ocurrió?** | Apareció “Bad state: Selecciona una imagen para la receta”. La publicación funcionó después de adjuntar la imagen. |
+| **¿Qué esperaba que sucediera?** | Identificar de antemano que la imagen es obligatoria y recibir una instrucción sin texto técnico. |
+| **¿Puedo repetir el problema?** | Observado en un intento. Falta repetir en otra sesión. |
+| **Importancia del problema** | Solicitar imagen. |
+| **Captura de pantalla** | Conservada en el paquete de evidencias, sin credenciales ni datos personales. |
 
-> ✅ Si todo funcionó correctamente, escribiré: **No encontré errores durante mis pruebas.**
+### PC-02 · Viñeta incorrecta en el PDF de receta
+
+| 🔍 Información | 📝 Mi respuesta |
+|:---|:---|
+| **Función afectada** | Detalle de receta > Descargar receta en PDF |
+| **¿Qué intentaba hacer?** | Generar y guardar el PDF de QA261026. |
+| **¿Qué ocurrió?** | Apareció un recuadro con una cruz antes del ingrediente. El resto del contenido fue legible. |
+| **¿Qué esperaba que sucediera?** | Una viñeta legible y un formato consistente. |
+| **¿Puedo repetir el problema?** | El mismo archivo mostró el defecto en teléfono y computadora. Falta repetir con otra receta. |
+| **Importancia del problema** | Baja: defecto visual. |
+| **Captura de pantalla** | Conservada en el paquete de evidencias. |
+
+Recomendaría usar símbolos compatibles e incluir las fuentes necesarias. No se confirmó la causa técnica exacta.
 
 ---
 
@@ -113,19 +119,19 @@ Si algo falla, registraré la información siguiente.
 
 **Mi respuesta:**
 
-Escribir aquí...
+Las categorías, la búsqueda y los favoritos permiten encontrar y volver a consultar recetas fácilmente. Me gustó la separación de ingredientes, preparación y beneficio, la nota educativa y el estilo visual consistente.
 
 ### 🛠️ 2. ¿Qué mejoraría o cambiaría de la aplicación?
 
 **Mi respuesta:**
 
-Escribir aquí...
+Marcaría los campos obligatorios, actualizaría las validaciones al corregirlos y evitaría mensajes como “Bad state”. Corregiría la viñeta del PDF, separaría Guardar de Compartir y pediría confirmación al cerrar sesión. En las pantallas recorridas no localicé controles visibles para editar o eliminar categorías y recetas; recomendaría añadirlos.
 
 ### 🌿 3. ¿Recomendaría esta aplicación a alguien interesado en la medicina natural? ¿Por qué?
 
 **Mi respuesta:**
 
-Escribir aquí...
+La recomendaría para explorar y organizar contenido educativo, por sus categorías, búsqueda y favoritos. Esta prueba no verificó la eficacia ni la seguridad médica de las recetas.
 
 ---
 
@@ -135,27 +141,25 @@ Aquí puedo comentar aspectos que no estén incluidos en las diez pruebas.
 
 **🎨 Diseño y colores:**
 
-Escribir aquí...
+La combinación de verde y fondo claro es consistente, y los botones principales se identifican fácilmente. Corregiría el símbolo del PDF.
 
 **📱 Facilidad de uso y navegación:**
 
-Escribir aquí...
+La consulta y los favoritos fueron sencillos. El icono de salida terminó la sesión directamente; recomendaría pedir confirmación. También explicaría el uso de Compartir e Imprimir para guardar archivos.
 
 **⚡ Velocidad y rendimiento:**
 
-Escribir aquí...
+No observé cierres ni bloqueos durante el recorrido. No medí tiempos exactos, memoria, batería ni rendimiento prolongado o con muchos registros.
 
 **💡 Otras sugerencias:**
 
-Escribir aquí...
+Actualizar las validaciones al editar, facilitar descarga directa y mostrar controles de edición de contenido. En Recetas vi Publicar y Retirar, pero no una opción visible de edición durante el recorrido.
 
 ---
 
 ## 📸 Evidencias (opcional)
 
-Puedo agregar capturas para explicar mejor mis comentarios.
-
-No incluiré contraseñas, información privada ni datos de otras personas.
+Conservé capturas y el PDF de receta de prueba en un paquete separado. Este README no incorpora archivos ni enlaces que requieran modificar carpetas ajenas. Se excluyen acceso, perfiles, contactos y reporte de usuarios para evitar exponer datos personales o credenciales.
 
 ---
 
@@ -163,18 +167,22 @@ No incluiré contraseñas, información privada ni datos de otras personas.
 
 | 🌿 Elemento | Resultado |
 |:---|:---|
-| Pruebas revisadas | ___ / 10 |
-| Problemas encontrados | ___ |
-| Calificación general | ___ / 5 |
-| ¿Terminé mi evaluación? | ⬜ Sí / No |
+| Pruebas revisadas | 10 / 10 |
+| Problemas encontrados | 2 detalles y sugerencias de usabilidad |
+| Calificación general | 4 / 5 |
+| ¿Terminé mi evaluación? | ✅ Sí, dentro del alcance descrito |
 
 ### 💚 Mi conclusión
 
-Escribir aquí...
+Pude completar el recorrido de administración y usuario: crear cuenta, categoría y receta de prueba; consultar esa receta con el usuario nuevo; usar favoritos y guardar PDF mediante Android. Priorizaría corregir los detalles registrados y simplificar la exportación y la gestión de contenido.
+
+Al terminar retiré la receta QA261026 de publicación y desactivé el usuario de prueba. La categoría QA261026 y la receta como Borrador permanecen como registros de evaluación. Restauré el favorito existente al inicio. No modifiqué contenido de otras personas.
+
+Quedan fuera del alcance permisos internos del servidor, conexión interrumpida, archivos grandes, entradas extensas, lector de pantalla, otros tamaños de pantalla y rendimiento prolongado.
 
 ---
 
-## 📤 Entrega de Leslye Mayte
+## 📤 Entrega de Leslie Mayte
 
 **Fecha límite:** viernes 23 de octubre de 2026.
 
